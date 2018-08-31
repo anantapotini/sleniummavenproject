@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="10" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="4798" started-at="2018-08-30T00:50:41Z" finished-at="2018-08-30T00:50:46Z">
+    <groups>
+      <group name="1">
+        <method signature="SmokeTest.alogin_Positive()[pri:1, instance:com.presta.tests.SmokeTest@4dbb42b7]" name="alogin_Positive" class="com.presta.tests.SmokeTest"/>
+      </group> <!-- 1 -->
+      <group name="sanity">
+        <method signature="SmokeTest.alogin_Positive()[pri:1, instance:com.presta.tests.SmokeTest@4dbb42b7]" name="alogin_Positive" class="com.presta.tests.SmokeTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Surefire test" duration-ms="4798" started-at="2018-08-30T00:50:41Z" finished-at="2018-08-30T00:50:46Z">
+      <class name="com.presta.tests.SmokeTest">
+        <test-method status="PASS" signature="loginToAPP()[pri:0, instance:com.presta.tests.SmokeTest@4dbb42b7]" name="loginToAPP" is-config="true" duration-ms="14476" started-at="2018-08-29T20:50:26Z" finished-at="2018-08-29T20:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAPP -->
+        <test-method status="PASS" signature="alogin_Positive()[pri:1, instance:com.presta.tests.SmokeTest@4dbb42b7]" name="alogin_Positive" duration-ms="7" started-at="2018-08-29T20:50:41Z" description="login_Positive" finished-at="2018-08-29T20:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alogin_Positive -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@4dbb42b7]" name="navigateToHome" is-config="true" duration-ms="4760" started-at="2018-08-29T20:50:41Z" finished-at="2018-08-29T20:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.presta.tests.SmokeTest@4dbb42b7]" name="closeBrowser" is-config="true" duration-ms="780" started-at="2018-08-29T20:50:46Z" finished-at="2018-08-29T20:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.presta.tests.SmokeTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

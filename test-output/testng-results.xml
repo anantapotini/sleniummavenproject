@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="142840" started-at="2018-08-29T23:54:03Z" finished-at="2018-08-29T23:56:26Z">
+    <groups>
+      <group name="1">
+        <method signature="SmokeTest.alogin_Positive()[pri:1, instance:com.presta.tests.SmokeTest@1c7696c6]" name="alogin_Positive" class="com.presta.tests.SmokeTest"/>
+      </group> <!-- 1 -->
+      <group name="2">
+        <method signature="SmokeTest.loginNegative()[pri:2, instance:com.presta.tests.SmokeTest@1c7696c6]" name="loginNegative" class="com.presta.tests.SmokeTest"/>
+      </group> <!-- 2 -->
+      <group name="3">
+        <method signature="SmokeTest.searchProduct()[pri:3, instance:com.presta.tests.SmokeTest@1c7696c6]" name="searchProduct" class="com.presta.tests.SmokeTest"/>
+      </group> <!-- 3 -->
+      <group name="4">
+        <method signature="SmokeTest.Addtocart()[pri:4, instance:com.presta.tests.SmokeTest@1c7696c6]" name="Addtocart" class="com.presta.tests.SmokeTest"/>
+      </group> <!-- 4 -->
+      <group name="sanity">
+        <method signature="SmokeTest.Addtocart()[pri:4, instance:com.presta.tests.SmokeTest@1c7696c6]" name="Addtocart" class="com.presta.tests.SmokeTest"/>
+        <method signature="SmokeTest.Deleteitem()[pri:6, instance:com.presta.tests.SmokeTest@1c7696c6]" name="Deleteitem" class="com.presta.tests.SmokeTest"/>
+        <method signature="SmokeTest.alogin_Positive()[pri:1, instance:com.presta.tests.SmokeTest@1c7696c6]" name="alogin_Positive" class="com.presta.tests.SmokeTest"/>
+        <method signature="SmokeTest.cartaddress()[pri:7, instance:com.presta.tests.SmokeTest@1c7696c6]" name="cartaddress" class="com.presta.tests.SmokeTest"/>
+        <method signature="SmokeTest.cartsubmit()[pri:10, instance:com.presta.tests.SmokeTest@1c7696c6]" name="cartsubmit" class="com.presta.tests.SmokeTest"/>
+        <method signature="SmokeTest.loginNegative()[pri:2, instance:com.presta.tests.SmokeTest@1c7696c6]" name="loginNegative" class="com.presta.tests.SmokeTest"/>
+        <method signature="SmokeTest.payment()[pri:9, instance:com.presta.tests.SmokeTest@1c7696c6]" name="payment" class="com.presta.tests.SmokeTest"/>
+        <method signature="SmokeTest.searchProduct()[pri:3, instance:com.presta.tests.SmokeTest@1c7696c6]" name="searchProduct" class="com.presta.tests.SmokeTest"/>
+        <method signature="SmokeTest.shipping()[pri:8, instance:com.presta.tests.SmokeTest@1c7696c6]" name="shipping" class="com.presta.tests.SmokeTest"/>
+        <method signature="SmokeTest.validatesummarypage()[pri:5, instance:com.presta.tests.SmokeTest@1c7696c6]" name="validatesummarypage" class="com.presta.tests.SmokeTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="142840" started-at="2018-08-29T23:54:03Z" finished-at="2018-08-29T23:56:26Z">
+      <class name="com.presta.tests.SmokeTest">
+        <test-method status="PASS" signature="loginToAPP()[pri:0, instance:com.presta.tests.SmokeTest@1c7696c6]" name="loginToAPP" is-config="true" duration-ms="12340" started-at="2018-08-29T19:53:51Z" finished-at="2018-08-29T19:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAPP -->
+        <test-method status="PASS" signature="alogin_Positive()[pri:1, instance:com.presta.tests.SmokeTest@1c7696c6]" name="alogin_Positive" duration-ms="89" started-at="2018-08-29T19:54:03Z" description="login_Positive" finished-at="2018-08-29T19:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alogin_Positive -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@1c7696c6]" name="navigateToHome" is-config="true" duration-ms="4641" started-at="2018-08-29T19:54:03Z" finished-at="2018-08-29T19:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="loginNegative()[pri:2, instance:com.presta.tests.SmokeTest@1c7696c6]" name="loginNegative" duration-ms="6413" started-at="2018-08-29T19:54:08Z" description="login_negative" finished-at="2018-08-29T19:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegative -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@1c7696c6]" name="navigateToHome" is-config="true" duration-ms="4436" started-at="2018-08-29T19:54:14Z" finished-at="2018-08-29T19:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="searchProduct()[pri:3, instance:com.presta.tests.SmokeTest@1c7696c6]" name="searchProduct" duration-ms="2025" started-at="2018-08-29T19:54:19Z" description="searchProduct" finished-at="2018-08-29T19:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@1c7696c6]" name="navigateToHome" is-config="true" duration-ms="4525" started-at="2018-08-29T19:54:21Z" finished-at="2018-08-29T19:54:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="Addtocart()[pri:4, instance:com.presta.tests.SmokeTest@1c7696c6]" name="Addtocart" duration-ms="4546" started-at="2018-08-29T19:54:25Z" description="Addtocart" finished-at="2018-08-29T19:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addtocart -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@1c7696c6]" name="navigateToHome" is-config="true" duration-ms="4605" started-at="2018-08-29T19:54:30Z" finished-at="2018-08-29T19:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="validatesummarypage()[pri:5, instance:com.presta.tests.SmokeTest@1c7696c6]" name="validatesummarypage" duration-ms="7944" started-at="2018-08-29T19:54:34Z" description="Sumpage" finished-at="2018-08-29T19:54:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesummarypage -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@1c7696c6]" name="navigateToHome" is-config="true" duration-ms="4787" started-at="2018-08-29T19:54:42Z" finished-at="2018-08-29T19:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="Deleteitem()[pri:6, instance:com.presta.tests.SmokeTest@1c7696c6]" name="Deleteitem" duration-ms="10798" started-at="2018-08-29T19:54:47Z" description="Deleteitem" finished-at="2018-08-29T19:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deleteitem -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@1c7696c6]" name="navigateToHome" is-config="true" duration-ms="4287" started-at="2018-08-29T19:54:58Z" finished-at="2018-08-29T19:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="cartaddress()[pri:7, instance:com.presta.tests.SmokeTest@1c7696c6]" name="cartaddress" duration-ms="14778" started-at="2018-08-29T19:55:02Z" description="cartaddress" finished-at="2018-08-29T19:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartaddress -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@1c7696c6]" name="navigateToHome" is-config="true" duration-ms="4761" started-at="2018-08-29T19:55:17Z" finished-at="2018-08-29T19:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="shipping()[pri:8, instance:com.presta.tests.SmokeTest@1c7696c6]" name="shipping" duration-ms="13167" started-at="2018-08-29T19:55:22Z" description="cart_shipping" finished-at="2018-08-29T19:55:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shipping -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@1c7696c6]" name="navigateToHome" is-config="true" duration-ms="4547" started-at="2018-08-29T19:55:35Z" finished-at="2018-08-29T19:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="payment()[pri:9, instance:com.presta.tests.SmokeTest@1c7696c6]" name="payment" duration-ms="14643" started-at="2018-08-29T19:55:39Z" description="cart_payment" finished-at="2018-08-29T19:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@1c7696c6]" name="navigateToHome" is-config="true" duration-ms="4636" started-at="2018-08-29T19:55:54Z" finished-at="2018-08-29T19:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="cartsubmit()[pri:10, instance:com.presta.tests.SmokeTest@1c7696c6]" name="cartsubmit" duration-ms="22662" started-at="2018-08-29T19:55:59Z" description="ordersummary and confirmation" finished-at="2018-08-29T19:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartsubmit -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:com.presta.tests.SmokeTest@1c7696c6]" name="navigateToHome" is-config="true" duration-ms="4489" started-at="2018-08-29T19:56:21Z" finished-at="2018-08-29T19:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.presta.tests.SmokeTest@1c7696c6]" name="closeBrowser" is-config="true" duration-ms="740" started-at="2018-08-29T19:56:26Z" finished-at="2018-08-29T19:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.presta.tests.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

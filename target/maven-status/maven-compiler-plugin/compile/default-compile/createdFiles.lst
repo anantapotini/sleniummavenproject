@@ -1,0 +1,10 @@
+com\presta\pages\SubmitPage.class
+com\presta\pages\PaymentPage.class
+com\selenium\common\ReadExcel.class
+com\selenium\common\Configuration.class
+com\presta\pages\ShippingPage.class
+com\selenium\common\CommonCode.class
+com\presta\pages\LoginPage.class
+com\presta\pages\AddressPage.class
+com\presta\pages\SummaryPage.class
+com\presta\pages\HomePage.class
